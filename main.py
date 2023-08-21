@@ -27,4 +27,4 @@ async def update(ctx, *, message=yahoo_api.aapl):
         for chunk in chunks:
             await ctx.send(f"```{chunk}```")
 
-bot.run('MTA4MzUyNDE4NDA0ODY4MTAyMA.GQLLHQ.nh46RYab-ipRpzhFrK_J-ckKMJFPcUy65wDeOk')
+bot.run('PRIVATE_DISCORD_BOT_KEY')
